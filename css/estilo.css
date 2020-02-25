@@ -30,12 +30,6 @@ body
 {
     margin-left: 165px;
 }
-.navegacao a
-{
-    color: #F2F3D9;
-    opacity: 0.3;
-    text-decoration: none;
-}
 .navegacao ul
 {
     position: relative;
@@ -49,4 +43,14 @@ body
     margin-left: 20px;
     font-size: 13px;
     text-transform: uppercase;
+}
+.navegacao a
+{
+    color: #E8E7EB;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.navegacao a:hover
+{
+    opacity: 0.9;
 }
