@@ -1,1 +1,52 @@
-dsfs
+body
+{
+    font-family: 'Open Sans','Helvetica', sans-serif;
+}
+.container
+{
+    margin: 0 auto;
+    max-width: 950px;
+}
+#cabecalho
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagens/topo.jpg);
+    background-size: cover;
+}
+.logoNav
+{
+    padding: 10px;
+    background: #02001E;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+}
+.logo, .navegacao
+{
+    display:inline-block;
+}
+.logo
+{
+    margin-left: 165px;
+}
+.navegacao a
+{
+    color: #F2F3D9;
+    opacity: 0.3;
+    text-decoration: none;
+}
+.navegacao ul
+{
+    position: relative;
+    top: -11px;
+    letter-spacing: 2px;
+    margin-left: 260px;
+}
+.navegacao ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
