@@ -62,7 +62,8 @@ body
 #portfolio h1
 {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: Arial;
     text-transform: capitalize;
     margin-bottom: 40px;
 }
@@ -71,4 +72,64 @@ body
     font-size: 15px;
     margin: 0px 50px 0px 50px;
     line-height: 1.5;
+}
+#cards ul li, #cards ul li h1, #cards ul li p
+{
+    display: inline-block;
+    text-align: center;
+}
+#cards ul
+{
+    margin-left: 125px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+#modelo1, #modelo2, #modelo3
+{
+    border-radius: 3px;
+}
+#modelo1
+{
+    background-image: url(../imagens/modelo1.jpg);
+    background-size: cover;
+    width: 215px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+#modelo2
+{
+    background-image: url(../imagens/modelo2.jpg);
+    background-size: cover;
+    width: 215px;
+    height: 200px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+#modelo3
+{
+    background-image: url(../imagens/modelo3.jpg);
+    background-size: cover;
+    width: 215px;
+    height: 200px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+#cards ul li h2
+{
+    margin-top: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #494D4B;
+}
+#cards ul li p
+{
+    margin-top: 10px;
+    font-family: 'Arial';
+    font-size: 13px;
+    color: #A7AFAB;
 }
